@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scheme name="DevDarcula" version="124" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.2" />
+  <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="16" />
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <option name="CONSOLE_FONT_SIZE" value="12" />
-  <option name="CONSOLE_LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_NAME" value="Courier New" />
+  <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
@@ -45,16 +44,6 @@
     <option name="WHITESPACES" value="505050" />
   </colors>
   <attributes>
-    <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="ABSTRACT_METHOD_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d0d0ff" />
@@ -65,11 +54,6 @@
       <value>
         <option name="FOREGROUND" value="bbb529" />
         <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="ATTR_INTERNAL_CALL_ID">
@@ -144,11 +128,6 @@
         <option name="FOREGROUND" value="ff0000" />
         <option name="ERROR_STRIPE_COLOR" value="ff0000" />
         <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="CLASS_NAME_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="CLASS_REFERENCE">
@@ -325,16 +304,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="CONSTRUCTOR_DECLARATION_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="CSS.COLOR">
       <value>
         <option name="FOREGROUND" value="6897bb" />
@@ -410,8 +379,8 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="ff" />
-        <option name="EFFECT_COLOR" value="ff" />
+        <option name="FOREGROUND" value="589df6" />
+        <option name="EFFECT_COLOR" value="589df6" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -481,13 +450,6 @@
     <option name="Class">
       <value>
         <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="Clojure Atom">
-      <value>
-        <option name="FOREGROUND" value="cc7832" />
-        <option name="BACKGROUND" value="2b2b2b" />
-        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -710,11 +672,6 @@
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
-    <option name="ENUM_NAME_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="bc3f3c" />
@@ -925,11 +882,6 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="INHERITED_METHOD_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="364135" />
@@ -951,11 +903,6 @@
       <value>
         <option name="FOREGROUND" value="d0d0ff" />
         <option name="EFFECT_TYPE" value="-1" />
-      </value>
-    </option>
-    <option name="INTERFACE_NAME_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="IVAR">
@@ -1026,7 +973,6 @@
     <option name="JAVA_KEYWORD">
       <value>
         <option name="FOREGROUND" value="cc7832" />
-        <option name="BACKGROUND" value="2b2b2b" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1205,11 +1151,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="LOCAL_VARIABLE_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="LOG_ERROR_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ff6b68" />
@@ -1258,11 +1199,6 @@
       <value>
         <option name="FOREGROUND" value="c4b3a3" />
         <option name="EFFECT_TYPE" value="-1" />
-      </value>
-    </option>
-    <option name="METHOD_CALL_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="METHOD_DECLARATION_ATTRIBUTES">
@@ -1344,11 +1280,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="PARAMETER_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="PHP_CONSTANT">
       <value>
         <option name="FOREGROUND" value="9876aa" />
@@ -1412,13 +1343,39 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES">
+    <option name="RDOC_DIRECTIVE">
       <value>
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="REASSIGNED_PARAMETER_ATTRIBUTES">
+    <option name="RDOC_EMAIL">
       <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RDOC_HEADINGS">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RDOC_IDENTIFIER">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RDOC_KEYWORD">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RDOC_URL">
+      <value>
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1486,6 +1443,225 @@
     <option name="REQUIRE_GEM_CALL">
       <value>
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RHTML_COMMENT_ID">
+      <value>
+        <option name="FOREGROUND" value="bc9458" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RHTML_EXPRESSION_END_ID">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RHTML_EXPRESSION_START_ID">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RHTML_OMIT_NEW_LINE_ID">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RHTML_SCRIPTING_BACKGROUND_ID">
+      <value>
+        <option name="BACKGROUND" value="232323" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RHTML_SCRIPTLET_END_ID">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RHTML_SCRIPTLET_START_ID">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_BAD_CHARACTER">
+      <value>
+        <option name="EFFECT_COLOR" value="ff0000" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="RUBY_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="bc9458" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="da4939" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_CONSTANT_DEF_ID">
+      <value>
+        <option name="FOREGROUND" value="9f0e9b" />
+        <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_CVAR">
+      <value>
+        <option name="FOREGROUND" value="d0d0ff" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_ESCAPE_SEQUENCE">
+      <value>
+        <option name="FOREGROUND" value="519f50" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_GVAR">
+      <value>
+        <option name="FOREGROUND" value="d0d0ff" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_HASH_ASSOC">
+      <value>
+        <option name="FOREGROUND" value="ffc66d" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_HEREDOC_CONTENT">
+      <value>
+        <option name="FOREGROUND" value="a5c261" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_HEREDOC_ID">
+      <value>
+        <option name="FOREGROUND" value="a5c261" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="RUBY_IMPORT_CALL">
+      <value>
+        <option name="FOREGROUND" value="cc7833" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_INTERPOLATED_STRING">
+      <value>
+        <option name="FOREGROUND" value="52a12e" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_INVALID_ESCAPE_SEQUENCE">
+      <value>
+        <option name="FOREGROUND" value="519f50" />
+        <option name="EFFECT_COLOR" value="ff0000" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="RUBY_IVAR">
+      <value>
+        <option name="FOREGROUND" value="d0d0ff" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_LINE_CONTINUATION">
+      <value>
+        <option name="BACKGROUND" value="686868" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_LOCAL_VAR_ID">
+      <value>
+        <option name="FOREGROUND" value="78b4" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_METHOD_NAME">
+      <value>
+        <option name="FOREGROUND" value="ffc66d" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_NTH_REF">
+      <value>
+        <option name="FOREGROUND" value="d0d0ff" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="a5c261" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="RUBY_OPERATION_SIGN">
+      <value>
+        <option name="FOREGROUND" value="cc7833" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_PARAMETER_ID">
+      <value>
+        <option name="FOREGROUND" value="9876aa" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_PRIVATE_CALL">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_PROTECTED_CALL">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_PUBLIC_CALL">
+      <value>
+        <option name="FOREGROUND" value="cc7833" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_REGEXP">
+      <value>
+        <option name="FOREGROUND" value="a5c261" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_REQUIRE_ARG_CALL">
+      <value>
+        <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_REQUIRE_CALL">
+      <value>
+        <option name="FOREGROUND" value="cc7833" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="RUBY_SPECIFIC_CALL">
+      <value>
+        <option name="FOREGROUND" value="da4939" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_SYMBOL">
+      <value>
+        <option name="FOREGROUND" value="6e9cbe" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1761,39 +1937,140 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="SLIM_BAD_CHARACTER">
+      <value>
+        <option name="EFFECT_COLOR" value="ff0000" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="SLIM_CALL">
+      <value>
+        <option name="FOREGROUND" value="cc7833" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SLIM_CLASS">
+      <value>
+        <option name="FOREGROUND" value="cc7833" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SLIM_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="bc9458" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SLIM_DOCTYPE_KWD">
+      <value>
+        <option name="FOREGROUND" value="cc7833" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SLIM_FILTER">
+      <value>
+        <option name="FOREGROUND" value="ff0000" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SLIM_FILTER_CONTENT">
+      <value>
+        <option name="BACKGROUND" value="442b2b" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="SLIM_ID">
+      <value>
+        <option name="FOREGROUND" value="ff00ff" />
+        <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SLIM_INTERPOLATION">
+      <value>
+        <option name="FOREGROUND" value="cc7833" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SLIM_PARENTHS">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SLIM_RUBY_CODE">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="BACKGROUND" value="2b2b2b" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="SLIM_STATIC_CONTENT">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="BACKGROUND" value="2b2b2b" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="SLIM_STRING_INTERPOLATED">
+      <value>
+        <option name="FOREGROUND" value="6a8759" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SLIM_TAG">
+      <value>
+        <option name="FOREGROUND" value="cc7833" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SLIM_TAG_ATTR_KEY">
+      <value>
+        <option name="FOREGROUND" value="cc7833" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SLIM_TAG_START">
+      <value>
+        <option name="FOREGROUND" value="cc7833" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="SPY-JS.EXCEPTION">
       <value>
-        <option name="BACKGROUND" value="ffcccc" />
+        <option name="BACKGROUND" value="532b2e" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="SPY-JS.FUNCTION_SCOPE">
       <value>
-        <option name="BACKGROUND" value="ffffd7" />
+        <option name="BACKGROUND" value="3a3a3a" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="SPY-JS.PATH_LEVEL_ONE">
       <value>
-        <option name="BACKGROUND" value="e2ffe2" />
+        <option name="BACKGROUND" value="425f44" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="SPY-JS.PATH_LEVEL_TWO">
       <value>
-        <option name="EFFECT_COLOR" value="0" />
+        <option name="EFFECT_COLOR" value="a9b7c6" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="SPY-JS.PROGRAM_SCOPE">
       <value>
-        <option name="BACKGROUND" value="ffffd7" />
+        <option name="BACKGROUND" value="3a3a3a" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT">
       <value>
-        <option name="EFFECT_COLOR" value="a9a9a9" />
+        <option name="EFFECT_COLOR" value="a9b7c6" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
