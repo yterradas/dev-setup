@@ -1,6 +1,16 @@
 ### aliases ###
-alias ll="ls -alhF"
-alias hist="history"
+alias ll='ls -alFH'
+alias l='ls -l'
+alias vi='vim'
+
+alias mvpkg='mvn clean package'
+alias mvdep='mvn clean deploy -Pnexus'
+alias mvi='mvn clean install'
+alias mvt='mvn clean test'
+alias mvu='mvn clean -U'
+
+alias zk='zkServer start'
+alias kk='kafka-server-start.sh /usr/local/etc/kafka/server.properties'
 
 ### exports ###
 export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
@@ -10,4 +20,5 @@ export GROOVY_HOME="/usr/local/opt/groovy/libexec"
 export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
 
 export GIT_PS1_SHOWDIRTYSTATE='empty'
-export PS1='[\W\[\033[0;31m\]$(__git_ps1 " (%s)")\[\033[0m\]]$ '
+export PS1='λ '
+export PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"'
