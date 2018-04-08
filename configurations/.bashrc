@@ -9,7 +9,8 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export GROOVY_HOME="/usr/local/opt/groovy/libexec"
 
 export GIT_PS1_SHOWDIRTYSTATE='empty'
-export PS1='λ '
+#export PS1='λ '
+export PS1='❯ '
 export PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"'
 
 eval "$(pyenv init -)"
